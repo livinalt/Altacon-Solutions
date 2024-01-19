@@ -10,7 +10,7 @@ const ContactMe = () => {
                 <p className="font-normal pr-12 mt-2 mb-8">If you are looking to hire a product designer or you need 
                 a front end developer, I am currently available for freelance work
                     </p>               
-              <button className ='text-sm bg-black text-white pt-3 pb-3 px-6 mr-10'><a href="mailto:altaconsol@gmail.com" >
+              <button className ='text-sm bg-black text-white pt-3 pb-3 px-6 mr-10 hover:bg-slate-600'><a href="mailto:altaconsol@gmail.com" >
                  <img src="" alt=""/>altaconsol@gmail.com</a>
                     </button>
 

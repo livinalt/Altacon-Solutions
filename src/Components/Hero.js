@@ -17,7 +17,7 @@ const Hero = () => {
                     reach their goals by designing user-centric
                      digital products and interactive experiences
                      </p>
-                <button className ='text-sm bg-black text-white pt-3 pb-3 px-6'><a href="mailto:altaconsol@gmail.com" >
+                <button className ='text-sm bg-black text-white pt-3 pb-3 px-6 hover:bg-slate-600'><a href="mailto:altaconsol@gmail.com" >
                     <img src="" alt=""/>altaconsol@gmail.com</a>
                     </button>
 
