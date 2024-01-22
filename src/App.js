@@ -1,26 +1,25 @@
-import React from 'react'
-import About from './Components/About'
-import ContactMe from './Components/ContactMe'
-import FeaturedWork from './Components/FeaturedWork'
-import Hero from './Components/Hero'
-import Navbar from './Components/Navbar'
-import PersonalWorks from './Components/PersonalWorks'
-import Footer from './Components/Footer'
+// App.jsx
+import React from 'react';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Home from './Page/Home';
+import Work from './Page/Work';
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
-    <div>
-          
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <FeaturedWork/>
-      <PersonalWorks/>
-      <ContactMe/>
-      <Footer/>
+    <> 
+      <BrowserRouter>
+        <Routes>
+          <Route index element= {<Home />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/About" element={<Home />} />
+          <Route path="/Work" element={<Work />} />
+          <Route path="/Contact" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
       
-    </div>
-  )
+    </>
+  );
 }
 
 export default App;
