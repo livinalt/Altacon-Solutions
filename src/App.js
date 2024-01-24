@@ -3,7 +3,7 @@ import React from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './Page/Home';
 import Work from './Page/Work';
-import Footer from './Components/Footer';
+
 
 const App = () => {
   return (
@@ -11,10 +11,10 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route index element= {<Home />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/About" element={<Home />} />
-          <Route path="/Work" element={<Work />} />
-          <Route path="/Contact" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<Home />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/contact" element={<Home />} />
         </Routes>
       </BrowserRouter>
       

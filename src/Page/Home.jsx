@@ -37,20 +37,20 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='m-20 container'>
-        <div className="flex justify-between align-middle">
-          <div>
-            <h2>A bit about me</h2>
+      
+        <div className=" mx-20 flex justify-between align-middle">
+          <div className='mt-20 mb-20'>
+            <h2 className='text-3xl font-bold'>A Bit About Me...</h2>
           </div>
 
-          <div className="w-2/5 mr-20">
+          <div className="font-normal w-2/5 mt-20 mb-20">
             <p>
               Hello, My name is Jeremiah, founder of Altacon Solutions. I am currently
               doing this and that. You can check out my projects on...
             </p>
           </div>
         </div>
-      </div>
+      
 
       <div className='m-20 container'>
         <div className='flex justify-between'>
